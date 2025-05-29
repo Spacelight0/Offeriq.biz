@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Offeriq</title>
+  <script src="https://cdn.tailwindcss.com"></script> 
+  <style>
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .animate-gradient {
+      background: linear-gradient(-45deg, #e0e7ff, #f5f3ff, #fbeafe, #fcefee);
+      background-size: 600% 600%;
+      animation: gradientBG 20s ease infinite;
+    }
+
+    .pulse {
+      animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.8; }
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 font-sans overflow-x-hidden">
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-indigo-600">Offeriq</h1>
+      <nav class="hidden md:flex space-x-8 text-sm font-medium">
+        <a href="#problem" class="hover:text-indigo-600 transition">The Problem</a>
+        <a href="#what" class="hover:text-indigo-600 transition">What is SellReady 7?</a>
+        <a href="#how" class="hover:text-indigo-600 transition">How It Works</a>
+        <a href="#why" class="hover:text-indigo-600 transition">Why Offeriq</a>
+        <a href="#about" class="hover:text-indigo-600 transition">About Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="pt-20 pb-32 relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 z-0 bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-200 animate-gradient"></div>
+    <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+      <h2 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6 text-indigo-900">
+        Offers That <span class="text-indigo-600">Sell Themselves</span>
+      </h2>
+      <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+        I rewrite your vague coaching offer into a clear message that books calls.
+      </p>
+      <a
+        href="https://calendly.com/your-link" 
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-semibold py-4 px-10 rounded-full shadow-lg transform transition-all duration-300 hover:scale-105 pulse"
+      >
+        Get Free Offer Review
+      </a>
+    </div>
+  </section>
+
+  <!-- The Problem -->
+  <section id="problem" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-10">You're not getting booked calls because...</h3>
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div class="p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+          <p class="text-gray-700">People don’t understand your offer?</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+          <p class="text-gray-700">Your DMs go cold after you pitch?</p>
+        </div>
+        <div class="p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+          <p class="text-gray-700">You’re not getting booked calls?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is SellReady 7? -->
+  <section id="what" class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-6">What is SellReady 7?</h3>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-10 text-center">
+        A done-for-you 7-day clarity rewrite to help coaches book more calls with better words.
+      </p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-blue-50 p-6 rounded-lg shadow-md">
+          <h4 class="font-semibold text-blue-700 mb-2">What’s Included:</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li>✓ Instagram Bio Rewrite</li>
+            <li>✓ Offer Statement</li>
+            <li>✓ Call-to-Action (CTA)</li>
+            <li>✓ One-liner Pitch</li>
+          </ul>
+        </div>
+        <div class="bg-purple-50 p-6 rounded-lg shadow-md">
+          <h4 class="font-semibold text-purple-700 mb-2">Designed For Coaches Who:</h4>
+          <ul class="space-y-2 text-gray-700">
+            <li>✗ Don’t have time for funnels or websites</li>
+            <li>✓ Need messaging that converts</li>
+            <li>✓ Want to grow with integrity</li>
+            <li>✓ Value real results over hype</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-10">How It Works</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center transform transition-all duration-500 hover:scale-105 hover:-translate-y-1">
+          <div class="w-12 h-12 mx-auto bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-bold text-xl mb-4">1</div>
+          <h4 class="font-semibold mb-2">Book Your Free Offer Review</h4>
+          <p class="text-gray-600">Tell me what you do and where you're stuck.</p>
+        </div>
+        <div class="text-center transform transition-all duration-500 hover:scale-105 hover:-translate-y-1">
+          <div class="w-12 h-12 mx-auto bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-bold text-xl mb-4">2</div>
+          <h4 class="font-semibold mb-2">I Rewrite Your Offer in 7 Days</h4>
+          <p class="text-gray-600">I'll take your current copy and turn it into something clear and compelling.</p>
+        </div>
+        <div class="text-center transform transition-all duration-500 hover:scale-105 hover:-translate-y-1">
+          <div class="w-12 h-12 mx-auto bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center font-bold text-xl mb-4">3</div>
+          <h4 class="font-semibold mb-2">You Get Clarity → Leads → Booked Calls</h4>
+          <p class="text-gray-600">New words. Better results. Real growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Offeriq -->
+  <section id="why" class="py-20 bg-gray-50">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-6">Why Offeriq?</h3>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-10 text-center">
+        Even without testimonials yet, here's why you can trust me:
+      </p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow transition-shadow">
+          <p class="text-gray-700">✅ Real clarity. Real words. Real results.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow transition-shadow">
+          <p class="text-gray-700">✅ No AI fluff or fake guarantees.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow transition-shadow">
+          <p class="text-gray-700">✅ Built from scratch to help coaches grow with integrity.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow transition-shadow">
+          <p class="text-gray-700">✅ This business is new, but the results are real.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-center mb-8">About Me</h3>
+      <div class="bg-gray-50 p-8 rounded-lg shadow-md max-w-2xl mx-auto">
+        <p class="text-gray-700 italic mb-4">
+          “I’m Tirthankar. I started Offeriq to help good coaches fix their broken messaging. I believe one clear sentence can make you more money than 100 reels. This is the service I wish I had when I started.”
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section id="cta" class="py-20 bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">Ready to finally say exactly what you do — and get booked?</h3>
+      <a
+        href="https://calendly.com/your-link" 
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block bg-white hover:bg-gray-100 text-indigo-600 font-semibold py-4 px-10 rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105 pulse"
+      >
+        Book Free Offer Review
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-gray-900 text-gray-400 text-center text-sm">
+    <p>&copy; 2025 Offeriq. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
